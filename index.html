@@ -24,39 +24,581 @@
     <!-- Bootstrap links -->
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="media.css">
 
-    <title>Bootstrap 5 Responsive Website</title>
+    <title>Responsive Website</title>
 
 </head>
 
 <body>
-    <!-- <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
 
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+    <!-- Home Section -->
+
+    <div class="header">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h3 class="heading_logo">Logo.</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blogs</a></li>
+                                <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-btn_header" href="#">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- content of website -->
+                        <div class="content_home_section">
+                            <span class="title_span">WELCOME TO OUR SITE</span>
+                            <h2 class="heading_homesection"><span class="heading_span"> We Are Digital</span> <br>
+                                Agency With Digital
+                                Solutions</h2>
+                            <p class="para_home_section">Lorem ipsum amet consectetur adipisicing elit. Quos ex placeat
+                                nesciunt
+                                soluta recusandae culpa vero pariatur excepturi provident odit.</p>
+                            <div class="button_home">
+                                <a href="#" class="btn_home">Start A Project</a>
+                                <a href="#" class="btn_home btn_home_contact">Contact Us</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- image -->
+                        <div class="img_banner_container">
+                            <img src="images/1.png" img-fluid img_banner" alt="banner img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <!-- image about -->
+                    <div class="img_container_about">
+                        <div class="img_about"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="content_about">
+                        <span class="title_span">About Us</span>
+                        <h3 class="heading_about_content">Why our agency?</h3>
+                        <p class="para_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad sed
+                            voluptates quis
+                            eligendi saepe laboriosam hic aspernatur voluptatibus autem nemo culpa ipsum, sunt impedit
+                            architecto
+                            molestias iste ullam explicabo ducimus id? Ipsam natus, suscipit laboriosam accusantium
+                            itaque eum
+                            recusandae!</p>
+
+                        <div class="details_about">
+                            <ul>
+                                <li class="list_about"><span class="icon_about"><i
+                                            class="fa-solid fa-check-double"></i></span>
+                                    <p class="pra_details">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Harum ullam vero
+                                        laborum placeat animi.</p>
+                                </li>
+
+                                <li class="list_about"><span class="icon_about"><i
+                                            class="fa-solid fa-check-double"></i></span>
+                                    <p class="pra_details">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Harum ullam vero
+                                        laborum placeat animi.</p>
+                                </li>
+
+                                <li class="list_about"><span class="icon_about"><i
+                                            class="fa-solid fa-check-double"></i></span>
+                                    <p class="pra_details">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Harum ullam vero
+                                        laborum placeat animi.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn_about_content">learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+
+    <section class="Service">
+        <div class="container">
+            <div class="title_heading_service">
+                <span class="title_span">Service / Features</span>
+                <h3 class="heading_services">Our Features</h3>
+                <p class="para_heading_services">Lorem ipsum doloibus nobis inventore vero! Animi repellat ad, ipsam
+                    fugiat
+                    temporibus enim! Vitae adipisci consectetur fugit quas quis alias possimus ipsa.</p>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 col-12 mt-4 d-flex justify-content-center">
+                    <div class="content_box_service">
+                        <span class="icon_container"><i class="fa-solid fa-file-contract" id="icon_services"></i></span>
+                        <h4 class="heading_content_service">
+                            Graphics Design
+                        </h4>
+                        <p class="para_content_service">Lorem ipsum dolor sit amet adipisicing elit. Fuga cumque nostrum
+                            autem
+                            aspernatur hic pariatur.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 mt-4 d-flex justify-content-center">
+                    <div class="content_box_service">
+                        <span class="icon_container"><i class="fa-solid fa-envelope-open-text"
+                                id="icon_services"></i></span>
+                        <h4 class="heading_content_service">
+                            Email Marketing
+                        </h4>
+                        <p class="para_content_service">Lorem ipsum dolor sit amet adipisicing elit. Fuga cumque nostrum
+                            autem
+                            aspernatur hic pariatur.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 mt-4 d-flex justify-content-center">
+                    <div class="content_box_service">
+                        <span class="icon_container"><i class="fa-solid fa-envelope-open-text"
+                                id="icon_services"></i></span>
+                        <h4 class="heading_content_service">
+                            Application Design
+                        </h4>
+                        <p class="para_content_service">Lorem ipsum dolor sit amet adipisicing elit. Fuga cumque nostrum
+                            autem
+                            aspernatur hic pariatur.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 mt-4 d-flex justify-content-center">
+                    <div class="content_box_service">
+                        <span class="icon_container"><i class="fa-solid fa-pen-nib" id="icon_services"></i></span>
+                        <h4 class="heading_content_service">
+                            Creative Design
+
+                        </h4>
+                        <p class="para_content_service">Lorem ipsum dolor sit amet adipisicing elit. Fuga cumque nostrum
+                            autem
+                            aspernatur hic pariatur.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our_client">
+        <div class="container">
+            <div class="container_client_content">
+                <div class="content_clients">
+                    <h3 class="heading_data">10,800</h3>
+                    <p class="para_data">SATISFIED CUSTOMERS</p>
+                </div>
+
+                <div class="content_clients">
+                    <h3 class="heading_data">19</h3>
+                    <p class="para_data">YEAR OF EXPERIENCED</p>
+                </div>
+
+                <div class="content_clients">
+                    <h3 class="heading_data">1,080</h3>
+                    <p class="para_data">HAPPY CUSTOMER</p>
+                </div>
+
+                <div class="content_clients">
+                    <h3 class="heading_data">900</h3>
+                    <p class="para_data">PROJECT COMPLETED</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Project Section -->
+
+    <section class="projects">
+        <div class="container">
+            <span class="title_span">WELCOME TO PROJECT SECTION</span>
+            <h3 class="heading_title_projects">CHECK OUR PROJECTS :</h3>
+
+            <div class="nav_link_container">
+                <ul class="d-flex flex-wrap mt-2">
+                    <li class="item_navbar_projects"><a href="#" class="project_navbar">All</a></li>
+                    <li class="item_navbar_projects"><a href="#" class="project_navbar active">WEB DEVELOPMENT</a></li>
+                    <li class="item_navbar_projects"><a href="#" class="project_navbar">UI / UX DESIGN</a></li>
+                    <li class="item_navbar_projects"><a href="#" class="project_navbar">BRANDING</a></li>
+                    <li class="item_navbar_projects"><a href="#" class="project_navbar">GRAPHIC DESIGN</a></li>
+                    <li class="item_navbar_projects"><a href="#" class="project_navbar">WEB DESIGN</a></li>
+                    <li class="item_navbar_projects"><a href="#" class="project_navbar">MARKETING</a></li>
+                </ul>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4 col-6">
+                    <div class="content_project_container_1">
+                        <div class="box_container box_1"></div>
+                        <div class="box_container box_2"></div>
+                        <div class="box_container box_3"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6">
+                    <div class="content_project_container_2">
+                        <div class="box_container box_4"></div>
+                        <div class="box_container box_5"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 table_mode_project">
+                    <div class="content_project_container_3">
+                        <div class="box_container box_6"></div>
+                        <div class="box_container box_7"></div>
+                        <div class="box_container box_8"></div>
+                        <div class="box_container box_9"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team section -->
+
+    <section class="our_team">
+        <div class="container">
+            <span class="title_span">OUR TEAM</span>
+            <h3 class="heading_title_projects">Check Our Team:</h3>
+
+            <div class="container_ourteam">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt-2 d-flex justify-content-center">
+                        <div class="content_team_details">
+                            <div class="img_container img_1_team"></div>
+                            <div class="content_team">
+                                <h4 class="heading_name">ROGER SCOTT</h4>
+                                <p class="profession">MARKETING MANAGER</p>
+
+                                <div class="social_link_team">
+                                    <!-- icons -->
+                                    <span class="icon_profile"><i class="fa-brands fa-facebook-f"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-instagram"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-google-play"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-twitter"></i></span>
+                                </div>
+                                <p class="para_details_team">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nisi nemo iure sed?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt-2 d-flex justify-content-center">
+                        <div class="content_team_details">
+                            <div class="img_container img_2_team"></div>
+                            <div class="content_team">
+                                <h4 class="heading_name">WILLIAM DOE
+                                </h4>
+                                <p class="profession">CTO MANAGER
+
+                                </p>
+
+                                <div class="social_link_team">
+                                    <!-- icons -->
+                                    <span class="icon_profile"><i class="fa-brands fa-facebook-f"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-instagram"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-google-play"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-twitter"></i></span>
+                                </div>
+                                <p class="para_details_team">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nisi nemo iure sed?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt-2 d-flex justify-content-center">
+                        <div class="content_team_details">
+                            <div class="img_container img_3_team"></div>
+                            <div class="content_team">
+                                <h4 class="heading_name">WILLIAM WHITE
+                                </h4>
+                                <p class="profession">CHIEF EXECUTIVE OFFICER
+
+                                </p>
+
+                                <div class="social_link_team">
+                                    <!-- icons -->
+                                    <span class="icon_profile"><i class="fa-brands fa-facebook-f"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-instagram"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-google-play"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-twitter"></i></span>
+                                </div>
+                                <p class="para_details_team">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nisi nemo iure sed?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt-2 mobile_mode_team">
+                        <div class="content_team_details">
+                            <div class="img_container img_4_team"></div>
+                            <div class="content_team">
+                                <h4 class="heading_name">JEFFREY ROCKENSON
+                                </h4>
+                                <p class="profession">PRESIDENT & CEO
+
+                                </p>
+
+                                <div class="social_link_team">
+                                    <!-- icons -->
+                                    <span class="icon_profile"><i class="fa-brands fa-facebook-f"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-instagra m"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-google-play"></i></span>
+                                    <span class="icon_profile"><i class="fa-brands fa-twitter"></i></span>
+                                </div>
+                                <p class="para_details_team">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nisi nemo iure sed?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+
+    <section class="blogs">
+        <div class="container">
+            <div class="title_heading_service">
+                <span class="title_span">RECENT POSTS / BLOGS</span>
+                <h3 class="heading_services">RECENT FROM BLOGS</h3>
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 tablet_mode">
+                    <div class="blog_container_content">
+                        <div class="image_container_blog img_1_blog"></div>
+
+                        <p class="text_container">
+
+                            <span><i class="fa fa-user me-1"></i>Admin</span>
+                            <span><i class="fa fa-calendar me-1"></i>JAN. 18, 2021</span>
+                            <span><i class="fa fa-comment me-1"></i> 8 Comments</span>
+                        </p>
+
+                        <div class="content_blog">
+                            <h3 class="heading_post_blog">Tips & Tricks For Building A New Web Page</h3>
+                            <p class="para_post_blog">Lorem ipsum dolor sit amet consectetu adipisicing consectetur sit
+                                amet consectetu adipisicing.</p>
+                            <a href="#" class="btn_post_blog">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 tablet_mode">
+                    <div class="blog_container_content">
+                        <div class="image_container_blog img_2_blog"></div>
+
+                        <p class="text_container">
+
+                            <span><i class="fa fa-user me-1"></i>Admin</span>
+                            <span><i class="fa fa-calendar me-1"></i>JAN. 18, 2021</span>
+                            <span><i class="fa fa-comment me-1"></i> 8 Comments</span>
+                        </p>
+
+                        <div class="content_blog">
+                            <h3 class="heading_post_blog">Tips & Tricks For Building A New Web Page</h3>
+                            <p class="para_post_blog">Lorem ipsum dolor sit amet consectetu adipisicing consectetur sit
+                                amet consectetu adipisicing.</p>
+                            <a href="#" class="btn_post_blog">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 tablet_mode">
+                    <div class="blog_container_content">
+                        <div class="image_container_blog img_3_blog"></div>
+
+                        <p class="text_container">
+
+                            <span><i class="fa fa-user me-1"></i>Admin</span>
+                            <span><i class="fa fa-calendar me-1"></i>JAN. 18, 2021</span>
+                            <span><i class="fa fa-comment me-1"></i> 8 Comments</span>
+                        </p>
+
+                        <div class="content_blog">
+                            <h3 class="heading_post_blog">Tips & Tricks For Building A New Web Page</h3>
+                            <p class="para_post_blog">Lorem ipsum dolor sit amet consectetu adipisicing consectetur sit
+                                amet consectetu adipisicing.</p>
+                            <a href="#" class="btn_post_blog">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-5 col-sm-5 col-7">
+                    <div class="content_footer_part">
+                        <h3 class="heading_logo text-white">Logo.</h3>
+                        <p class="address_para">203 Fake St. San Francisco, California, USA</p>
+                        <p class="contact_para"><span class="call_us">Phone:</span>123-456789 99</p>
+                        <p class="contact_para"><span class="call_us">Email:</span>Info@gmail.com</p>
+
+                        <div class="social_media_profiles mt-3">
+                            <!-- icons -->
+                            <span class="social_link_footer"><i class="fa-brands fa-facebook-f"></i></span>
+                            <span class="social_link_footer"><i class="fa-brands fa-instagram"></i></span>
+                            <span class="social_link_footer"><i class="fa-brands fa-google-play"></i></span>
+                            <span class="social_link_footer"><i class="fa-brands fa-twitter"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-3 col-5">
+                    <h3 class="heading_footer_part">Pages</h3>
+
+                    <div class="nav_link_footer text-white">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link pages_link_footer" aria-current="page" href="#"> <span
+                                        class="icon_about"><i class="fa-solid fa-check-double"></i></span> Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pages_link_footer" href="#"><span class="icon_about"><i
+                                            class="fa-solid fa-check-double"></i></span>About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pages_link_footer" href="#"> <span class="icon_about"><i
+                                            class="fa-solid fa-check-double"></i></span>Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link pages_link_footer " href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <span class="icon_about"><i class="fa-solid fa-check-double"></i></span>Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Blogs</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                    <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pages_link_footer" href="#"><span class="icon_about"><i
+                                            class="fa-solid fa-check-double"></i></span>Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pages_link_footer" href="#"><span class="icon_about"><i
+                                            class="fa-solid fa-check-double"></i></span>Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6 mb-4">
+                    <h3 class="heading_footer_part">Our Services</h3>
+                    <div class="services_footer_parat_navlink">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link pages_link_footer" aria-current="page" href="#"> <span
+                                        class="icon_about"><i class="fa-solid fa-check-double"></i></span> Web
+                                    Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pages_link_footer" href="#"><span class="icon_about"><i
+                                            class="fa-solid fa-check-double"></i></span>UI/UX Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pages_link_footer" href="#"> <span class="icon_about"><i
+                                            class="fa-solid fa-check-double"></i></span>Web Development</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link pages_link_footer" href="#"><span class="icon_about"><i
+                                            class="fa-solid fa-check-double"></i></span>Graphics Design</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12">
+                    <h3 class="heading_footer_part">Our Newsletter</h3>
+                    <p class="para_footer_part">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, veniam neque vitae delectus
+                        officiis dolorum!
+                    </p>
+
+                    <input type="text" class="input_newsletter">
+                    <button class="btn_newsletter">Subscribe</button>
+                </div>
+
+
+
+            </div>
         </div>
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
-
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
-
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
-        </div>
-    </div> -->
-
+        <footer>
+            <p class="footer_copyright">© Copyright Web Tutorials. All Rights Reserved</p>
+            <p class="footer_credit_area">Designed by WEB TUTORIALS</p>
+        </footer>
+    </section>
 </body>
 
 </html>
