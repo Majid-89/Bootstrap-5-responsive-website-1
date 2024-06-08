@@ -50,7 +50,13 @@
         justify-content: center;
         align-items: center;
         margin: 12px 0px 30px 0px;
+        background: white;
+        position: absolute;
 
+    }
+
+    .hero_section {
+        padding-top: 200px;
     }
 
     #navbarNavDropdown .navbar-nav {
